@@ -87,7 +87,7 @@ while True:
                 if mole.rect.collidepoint(event.pos):
                     streak += 1  
                     miss_streak = 0
-                    if streak >= 2:
+                    if streak >= 3:
                         score += 2  
                         damage_2.play()
                     else:
